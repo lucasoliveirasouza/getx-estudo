@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-class SomaController extends GetxController {
+class SumController extends GetxController {
   var books = 0.obs;
   var pens = 0.obs;
   int get sum => books.value + pens.value;

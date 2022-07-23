@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:somagetx/controllers/soma_controller.dart';
+import 'package:somagetx/controllers/sum_controller.dart';
 import 'package:somagetx/views/total_page.dart';
 
 class HomeView extends StatelessWidget {
   HomeView({Key? key}) : super(key: key);
-  final SomaController c = Get.put(SomaController());
+  final SumController c = Get.put(SumController());
 
   @override
   Widget build(BuildContext context) {

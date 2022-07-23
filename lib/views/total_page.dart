@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:somagetx/controllers/soma_controller.dart';
+import 'package:somagetx/controllers/sum_controller.dart';
 
 class TotalPage extends StatelessWidget {
   TotalPage({Key? key}) : super(key: key);
-  final SomaController c = Get.put(SomaController());
+  final SumController c = Get.put(SumController());
 
   @override
   Widget build(BuildContext context) {
