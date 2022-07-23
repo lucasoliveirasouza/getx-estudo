@@ -35,7 +35,7 @@ class HomeView extends StatelessWidget {
                     color: Colors.redAccent,
                   ),
                   child: IconButton(
-                    onPressed: () {},
+                    onPressed: () => c.increment(),
                     icon: Icon(
                       Icons.add,
                       color: Colors.white,
@@ -47,7 +47,7 @@ class HomeView extends StatelessWidget {
                 ),
                 Obx(() => Text(
                       "${c.books.toString()}",
-                      style: TextStyle(fontSize: 20),
+                      style: TextStyle(fontSize: 30),
                     )),
                 SizedBox(
                   width: 20,
