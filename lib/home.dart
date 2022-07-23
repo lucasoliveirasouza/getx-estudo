@@ -60,7 +60,7 @@ class HomeView extends StatelessWidget {
                       color: Colors.redAccent,
                     ),
                     child: IconButton(
-                      onPressed: () {},
+                      onPressed: () => c.decrement(),
                       icon: Icon(
                         Icons.remove,
                         color: Colors.white,
