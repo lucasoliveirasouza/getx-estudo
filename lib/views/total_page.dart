@@ -5,6 +5,20 @@ class TotalPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Container(
+        child: Column(
+          children: [
+            Text(
+              "Total itens",
+              style: TextStyle(
+                fontSize: 30,
+                color: Colors.blue,
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 }
