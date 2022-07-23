@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:somagetx/controllers/soma_controller.dart';
 
 class HomeView extends StatelessWidget {
   HomeView({Key? key}) : super(key: key);
-  final SomaController
+  final SomaController c = Get.put(SomaController());
 
   @override
   Widget build(BuildContext context) {
@@ -34,15 +35,19 @@ class HomeView extends StatelessWidget {
                     color: Colors.redAccent,
                   ),
                   child: IconButton(
-                    onPressed: (){},
+                    onPressed: () {},
                     icon: Icon(
                       Icons.add,
                       color: Colors.white,
                     ),
-                  )
+                  ),
                 ),
                 SizedBox(
-                  width: 40,
+                  width: 20,
+                ),
+                Obx(() => ),
+                SizedBox(
+                  width: 20,
                 ),
                 Container(
                     width: 50,
@@ -52,13 +57,12 @@ class HomeView extends StatelessWidget {
                       color: Colors.redAccent,
                     ),
                     child: IconButton(
-                      onPressed: (){},
+                      onPressed: () {},
                       icon: Icon(
                         Icons.remove,
                         color: Colors.white,
                       ),
-                    )
-                ),
+                    )),
               ],
             )
           ],
