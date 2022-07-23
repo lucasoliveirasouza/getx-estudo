@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:somagetx/controllers/soma_controller.dart';
+import 'package:somagetx/views/total_page.dart';
 
 class HomeView extends StatelessWidget {
   HomeView({Key? key}) : super(key: key);
@@ -145,7 +146,7 @@ class HomeView extends StatelessWidget {
                         borderRadius: BorderRadius.circular(30),
                       ),
                     ),
-                    onPressed: () {},
+                    onPressed: () => Get.to(() => TotalPage()),
                     child: Text(
                       "Total",
                       style: TextStyle(
