@@ -124,7 +124,24 @@ class HomeView extends StatelessWidget {
                     )),
               ],
             ),
-            Row(),
+            SizedBox(
+              height: 20,
+            ),
+            Row(
+              children: [
+                Expanded(
+                  child: Container(),
+                ),
+                Container(
+                  width: 150,
+                  height: 70,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(30),
+                    color: Colors.blue.shade900,
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
