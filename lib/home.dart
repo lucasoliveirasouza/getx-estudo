@@ -45,7 +45,10 @@ class HomeView extends StatelessWidget {
                 SizedBox(
                   width: 20,
                 ),
-                Obx(() => ),
+                Obx(() => Text(
+                      "${c.books.toString()}",
+                      style: TextStyle(fontSize: 20),
+                    )),
                 SizedBox(
                   width: 20,
                 ),
