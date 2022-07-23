@@ -31,7 +31,7 @@ class SomaController extends GetxController {
   }
 
   decrementPens() {
-    if (books.value <= 0) {
+    if (pens.value <= 0) {
       Get.snackbar(
         "Buying Pens",
         "Can not be less than zero",

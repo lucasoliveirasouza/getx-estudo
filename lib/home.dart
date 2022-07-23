@@ -67,7 +67,64 @@ class HomeView extends StatelessWidget {
                       ),
                     )),
               ],
-            )
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              children: [
+                Text(
+                  "Pens",
+                  style: TextStyle(
+                    fontSize: 30,
+                    color: Colors.amber,
+                  ),
+                ),
+                Expanded(
+                  child: Container(),
+                ),
+                Container(
+                  width: 50,
+                  height: 50,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(25),
+                    color: Colors.redAccent,
+                  ),
+                  child: IconButton(
+                    onPressed: () => c.incrementPens(),
+                    icon: Icon(
+                      Icons.add,
+                      color: Colors.white,
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                Obx(() => Text(
+                      "${c.pens.toString()}",
+                      style: TextStyle(fontSize: 30),
+                    )),
+                SizedBox(
+                  width: 20,
+                ),
+                Container(
+                    width: 50,
+                    height: 50,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(25),
+                      color: Colors.redAccent,
+                    ),
+                    child: IconButton(
+                      onPressed: () => c.decrementPens(),
+                      icon: Icon(
+                        Icons.remove,
+                        color: Colors.white,
+                      ),
+                    )),
+              ],
+            ),
+            Row(),
           ],
         ),
       ),
