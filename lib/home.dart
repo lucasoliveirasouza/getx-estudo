@@ -139,6 +139,16 @@ class HomeView extends StatelessWidget {
                     borderRadius: BorderRadius.circular(30),
                     color: Colors.blue.shade900,
                   ),
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    child: Text(
+                      "Total",
+                      style: TextStyle(
+                        fontSize: 30,
+                        color: Colors.white,
+                      ),
+                    ),
+                  ),
                 ),
               ],
             ),
