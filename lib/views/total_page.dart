@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:somagetx/controllers/soma_controller.dart';
 
 class TotalPage extends StatelessWidget {
-  const TotalPage({Key? key}) : super(key: key);
+  TotalPage({Key? key}) : super(key: key);
+  final SomaController c = Get.put(SomaController());
 
   @override
   Widget build(BuildContext context) {
@@ -20,7 +22,19 @@ class TotalPage extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 20,
+                height: 10,
+              ),
+              Obx(
+                () => Text(
+                  "${c.sum}",
+                  style: TextStyle(
+                    fontSize: 40,
+                    color: Colors.redAccent,
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Container(
                 width: 150,

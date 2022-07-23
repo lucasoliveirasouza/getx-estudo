@@ -102,10 +102,12 @@ class HomeView extends StatelessWidget {
                 SizedBox(
                   width: 20,
                 ),
-                Obx(() => Text(
-                      "${c.pens.toString()}",
-                      style: TextStyle(fontSize: 30),
-                    )),
+                Obx(
+                  () => Text(
+                    "${c.pens.toString()}",
+                    style: TextStyle(fontSize: 30),
+                  ),
+                ),
                 SizedBox(
                   width: 20,
                 ),
