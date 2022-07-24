@@ -20,7 +20,12 @@ class HomeView extends StatelessWidget {
               color: Colors.blue.shade200,
             ),
             child: Center(
-              child: Text("Getx Flutter"),
+              child: Text(
+                "Getx Flutter",
+                style: TextStyle(
+                  fontSize: 30,
+                ),
+              ),
             ),
           ),
         ],
