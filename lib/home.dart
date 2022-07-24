@@ -14,7 +14,7 @@ class HomeView extends StatelessWidget {
           Container(
             height: 230,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.only(),
+              borderRadius: BorderRadius.only(bottomRight: Radius.circular(50)),
             ),
           ),
         ],
