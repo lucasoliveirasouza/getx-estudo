@@ -21,9 +21,9 @@ class HomeView extends StatelessWidget {
             ),
             child: Center(
               child: Text(
-                "Getx Flutter",
+                "GetX Flutter",
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 40,
                 ),
               ),
             ),
