@@ -12,9 +12,12 @@ class HomeView extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: 230,
+            height: 250,
             decoration: BoxDecoration(
-              borderRadius: BorderRadius.only(bottomRight: Radius.circular(50)),
+              borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(50),
+              ),
+              color: Colors.blue.shade200,
             ),
           ),
         ],
