@@ -17,6 +17,7 @@ class SumController extends GetxController {
         "Can not be less than zero",
         icon: Icon(Icons.alarm),
         barBlur: 20,
+        backgroundColor: Colors.redAccent.shade200,
         isDismissible: true,
         duration: Duration(
           seconds: 3,
@@ -38,6 +39,7 @@ class SumController extends GetxController {
         "Can not be less than zero",
         icon: Icon(Icons.alarm),
         barBlur: 20,
+        backgroundColor: Colors.redAccent.shade200,
         isDismissible: true,
         duration: Duration(
           seconds: 3,
