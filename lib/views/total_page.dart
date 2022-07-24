@@ -48,10 +48,11 @@ class TotalPage extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30),
                     ),
+                    primary: Colors.deepPurple.shade200,
                   ),
                   onPressed: () => Get.back(),
                   child: Text(
-                    "Total",
+                    "Go back",
                     style: TextStyle(
                       fontSize: 30,
                       color: Colors.white,

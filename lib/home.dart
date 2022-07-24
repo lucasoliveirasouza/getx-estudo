@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:somagetx/controllers/sum_controller.dart';
-import 'package:somagetx/views/total_page.dart';
 
 class HomeView extends StatelessWidget {
   HomeView({Key? key}) : super(key: key);
@@ -10,7 +9,11 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
+      body: Column(
+        children: [],
+      ),
+
+      /*Container(
         padding: const EdgeInsets.all(30),
         color: Colors.white,
         child: Column(
@@ -147,6 +150,7 @@ class HomeView extends StatelessWidget {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(30),
                       ),
+                      primary: Colors.deepPurple.shade200,
                     ),
                     onPressed: () => Get.to(() => TotalPage()),
                     child: Text(
@@ -162,7 +166,7 @@ class HomeView extends StatelessWidget {
             ),
           ],
         ),
-      ),
+      ),*/
     );
   }
 }
