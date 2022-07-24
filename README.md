@@ -17,6 +17,6 @@ Estudo do gerenciamento de estados com GetX
 
 #### O Aplicativo:
 
-<img src="https://user-images.githubusercontent.com/26170686/180629023-fee8c9d0-924f-4333-bf0d-f12b76fb284b.gif" width="250" height="250"/>
+<img src="https://user-images.githubusercontent.com/26170686/180629023-fee8c9d0-924f-4333-bf0d-f12b76fb284b.gif" height="250"/>
 
 
