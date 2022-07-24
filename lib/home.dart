@@ -19,7 +19,9 @@ class HomeView extends StatelessWidget {
               ),
               color: Colors.blue.shade200,
             ),
-            child: Text("Getx"),
+            child: Center(
+              child: Text("Getx"),
+            ),
           ),
         ],
       ),
