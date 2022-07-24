@@ -18,7 +18,7 @@ class HomeView extends StatelessWidget {
               borderRadius: BorderRadius.only(
                 bottomLeft: Radius.circular(50),
               ),
-              color: Colors.deepPurple.shade200,
+              color: Colors.blue.shade200,
             ),
             child: Center(
               child: Text(
